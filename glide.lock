@@ -1,0 +1,65 @@
+hash: 02428269c2d381e805f4cf1b6f0815ce872b0accfcc32899dcad4800e0ef6d2a
+updated: 2017-02-11T18:27:43.217904397-05:00
+imports:
+- name: github.com/colinmarc/hdfs
+  version: 5ca9568680e4e7434232f5f81488043e098824a0
+  subpackages:
+  - protocol/hadoop_hdfs
+  - rpc
+  - protocol/hadoop_common
+- name: github.com/docker/distribution
+  version: b1993c95303df3d0214129d85382c3c573e4df20
+  subpackages:
+  - reference
+  - digestset
+- name: github.com/docker/docker
+  version: 092cba3727bb9b4a2f0e922cd6c0f93ea270e363
+  subpackages:
+  - client
+  - api/types
+  - api/types/container
+  - api/types/events
+  - api/types/filters
+  - api/types/network
+  - api/types/reference
+  - api/types/registry
+  - api/types/swarm
+  - api/types/time
+  - api/types/versions
+  - api/types/volume
+  - pkg/tlsconfig
+  - api/types/mount
+  - api/types/blkiodev
+  - api/types/strslice
+- name: github.com/docker/go-connections
+  version: 7da10c8c50cad14494ec818dcdfb6506265c0086
+  subpackages:
+  - sockets
+  - tlsconfig
+  - nat
+- name: github.com/docker/go-units
+  version: 0dadbb0345b35ec7ef35e228dabb8de89a65bf52
+- name: github.com/golang/protobuf
+  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
+  subpackages:
+  - proto
+- name: github.com/Microsoft/go-winio
+  version: fff283ad5116362ca252298cfc9b95828956d85d
+- name: github.com/opencontainers/go-digest
+  version: aa2ec055abd10d26d539eb630a92241b781ce4bc
+- name: github.com/pkg/errors
+  version: 248dadf4e9068a0b3e79f02ed0a610d935de5302
+- name: github.com/Sirupsen/logrus
+  version: 3f603f494d61c73457fb234161d8982b9f0f0b71
+- name: golang.org/x/net
+  version: 61557ac0112b576429a0df080e1c2cef5dfbb642
+  subpackages:
+  - context
+  - context/ctxhttp
+  - proxy
+- name: golang.org/x/sys
+  version: aaabbdc969c3935a2a7f61efac801e7163c73a2a
+  subpackages:
+  - windows
+  - unix
+testImports: []
